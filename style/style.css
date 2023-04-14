@@ -1,0 +1,162 @@
+@import url(./font.css);
+body {
+    background-image:url("../Assets/Backround.jpg");
+    background-size: cover;
+}
+#start-zone{
+    display: block;
+}
+.font-effect-fire-animation {
+    text-align: center;
+    font-family:sans-serif;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size:  50px;
+    
+}
+input{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-inline: auto;
+    background-color: rgba(222, 184, 135, 0.678);
+    border-radius: 5px;
+    border: none;
+    scale: 2;
+}
+.start-btn {
+    margin-top: 30px;
+    display: block;
+    margin-inline: auto;
+    scale: 2;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    background-color: rgba(222, 184, 135, 0.678);
+    color: black;
+}
+main{
+    display: none;
+}
+.score-table {
+    position: relative;
+    margin-inline: auto;
+    width: 40%;
+    height: 75px;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(222, 184, 135, 0.616);
+}
+.player-lent{
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    background-color: rgb(165, 42, 42);
+    left: -30px;
+    color: aliceblue;
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+}
+#score {
+    font-size:50px;
+}
+.bot-lent {
+    position:absolute;
+    width: 60px;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    height: 25px;
+    background-color: rgb(165, 42, 42);
+    right: -30px;
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+}
+#game-area {
+    display: flex;
+    height: 100%;
+    position: relative;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-inline: 50px;
+    
+}
+#player-card {
+    width: 30%;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(222, 184, 135, 0.616);
+
+}
+#player-name{
+    margin-top: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 24px;
+
+}
+#win-bot , #win-player {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+.movePlayer img{
+    width: 300px;
+}
+.moveBot img{
+    width: 300px;
+}
+.consol1 ,.consol{
+    text-align: center;
+}
+
+.icon1{
+    width: 70px;
+    border-radius: 100%;
+}
+.icon2{
+    width: 70px;
+    border-radius: 100%;
+}
+.icon3{
+    width: 70px;
+    border-radius: 100%;
+}
+#rock-icon, #paper-icon, #scissors-icon{
+    cursor: pointer;
+    width: 70px;
+    border-radius: 100%;
+}
+#rock-icon:hover, #paper-icon:hover, #scissors-icon:hover{
+    background-color: rgba(224, 138, 26, 0.616);
+}
+#bot-card {
+    width: 30%;
+    position: relative;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(222, 184, 135, 0.616);
+}
+#bot-name{
+    margin-top: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 24px;
+}

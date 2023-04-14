@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+   <div id="start-zone">
+    <div class="font-effect-fire-animation">
+        Rock <br>
+        Paper <br>
+        Scissors
+    </div>
+    <input id="input-name" type="text" placeholder="Enter Name...">
+    <button id="startBtn" class="start-btn">Start Game</button>
+   </div>
+    
+    <main id="game-zone">
+        <div class="score-table">
+            <div class="player-lent">Player</div>
+            <h1 id="score">0:0</h1>
+            <div class="bot-lent">Bot</div>
+        </div>
+        <div id="game-area">
+            <div id="player-card">
+                <p id="player-name">Player</p>
+                <div class="info-game">
+                    <p id="win-player">
+                        <!-- win yada lose -->
+                        DRAFT
+                    </p>
+                    <div class="movePlayer">
+                        <img id="movePlayer" src="./Assets/question.png" alt="">
+                        <!-- hemleni gösterir -->
+                    </div>
+                </div>
+                <div class="consol1">
+                    <img id="rock-icon" src="./Assets/rock-icon.png" alt="rock">
+                    <img id="paper-icon" src="./Assets/paper-icon.png" alt="paper">
+                    <img id="scissors-icon" src="./Assets/scissors-icon.png" alt="scissor">
+                </div>
+            </div>
+            <img class="vs" src="./Assets/Vs.png" alt="vs">
+            <div id="bot-card">
+                <p id="bot-name">Bot</p>
+                <div class="info-game">
+                    <p id="win-bot">
+                        <!-- win yada lose -->
+                        DRAFT
+                    </p>
+                    <div class="moveBot">
+                        <img id="moveBot" src="./Assets/question.png" alt="">
+                        <!-- hemleni gösterir -->
+                    </div>
+                </div>
+                <div class="consol">
+                    <img class="icon1" src="./Assets/rock-icon.png" alt="rock">
+                    <img class="icon2" src="./Assets/paper-icon.png" alt="paper">
+                    <img class="icon3" src="./Assets/scissors-icon.png" alt="scissor">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
